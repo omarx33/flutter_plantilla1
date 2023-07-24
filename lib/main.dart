@@ -13,16 +13,16 @@ class MyApp extends StatelessWidget {
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            CircleAvatar(
+            const CircleAvatar(
               radius: 50.0,
               backgroundColor: Colors.white70,
-              backgroundImage: AssetImage("assets/img/persona1.jpg"),
-              // backgroundImage: NetworkImage(
-              //     "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"),
+              // backgroundImage: AssetImage("assets/img/persona1.jpg"),
+              backgroundImage: NetworkImage(
+                  "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"),
             ),
             SizedBox(height: 12.0,),
-            Text(
-              "Ana estrada",
+            const Text(
+              "CARLOS OMAR MORI HUAMANI",
               style: TextStyle(
                   color: Colors.white,
                   fontSize: 22.0,
@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
               ),
             ),
             SizedBox(height: 4.0,),
-            Text(
+            const Text(
               "Flutter programador",
               style: TextStyle(
                 color: Colors.white70,
@@ -41,7 +41,7 @@ class MyApp extends StatelessWidget {
                 fontWeight: FontWeight.w400
               ),
             ),
-            SizedBox(
+            const SizedBox(
               width: 170.0,
               child: Divider(
                 thickness: 0.8,
@@ -57,7 +57,7 @@ class MyApp extends StatelessWidget {
               child: ListTile(
                 leading: Icon(Icons.phone,
                 color: Colors.indigo,), //izquierda
-                title: Text("+51 22222222"),
+                title: Text("+51 933094989"),
                 subtitle: Text("Teléfono"),
                 trailing: Icon(Icons.check_circle_outline), //derecha
               ),
@@ -69,7 +69,7 @@ class MyApp extends StatelessWidget {
               child: ListTile(
                 leading: Icon(Icons.mail,
                   color: Colors.indigo,), //izquierda
-                title: Text("prueba@gmail.com"),
+                title: Text("carlosmorih33@gmail.com"),
                 subtitle: Text("correo electrónico"),
                 trailing: Icon(Icons.check_circle_outline), //derecha
               ),
